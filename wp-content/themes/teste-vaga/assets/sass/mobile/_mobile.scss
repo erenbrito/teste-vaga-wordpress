@@ -1,0 +1,424 @@
+html {
+    & > body {
+		@media screen and (max-width: 1199px) {
+			main.home {
+				.banner {
+					h1 {
+						font-size: 36px;
+						line-height: 45px;
+					}
+					p {
+						font-size: 14px;
+						line-height: 20px;
+					}
+					.image {
+						width: 415px;
+						margin-top: -60px;
+					}
+				}
+
+				.organizar {
+					.box {
+						padding: 36px 110px;
+						h1 {
+							font-size: 28px;
+							line-height: 37.6px;
+							padding-right: 30px;
+						}
+						p {
+							font-size: 15px;
+							line-height: 21.4px;
+						}
+						.image {
+							top: -57px;
+							margin-left: -130px;
+						}
+					}
+				}
+
+				.plataforma {
+					.carroussel {
+						.swiper-button-prev {
+							left: 43%;
+						}
+						.swiper-button-next {
+							right: 43%;
+						}
+					}
+				}
+
+				.calcule {
+					.box {
+						padding: 104px 34px;
+						.content-right {
+							.box-calc {
+								width: 500px;
+								height: 513px;
+								top: -179px;
+								margin-left: 20px;
+								padding: 44px 33px;
+							}
+						}
+					}
+				}
+
+				.posts {
+					.thumb {
+						width: 300px;
+						.image {
+							height: 300px;
+							&::after {
+								height: 300px;
+							}
+						}
+					}
+						.box {
+							max-width: 270px;
+					}
+				}
+			}
+		}
+
+		@media screen and (max-width: 991px) {
+			main.home {
+				.banner {
+					h1 {
+						font-size: 26px;
+						line-height: 35px;
+					}
+					p {
+						font-size: 12px;
+						line-height: 18px;
+					}
+					button {
+						width: 186px;
+						height: 41px;
+						font-size: 12px;
+					}
+					.image {
+						width: 415px;
+						margin-top: -40px;
+					}
+				}
+
+				.organizar {
+					.box {
+						padding: 26px 40px;
+						h1 {
+							font-size: 26px;
+							line-height: 31.6px;
+						}
+						p {
+							font-size: 14px;
+							line-height: 17.4px;
+							padding-right: 20px;
+						}
+						.button {
+							width: 186px;
+							height: 41px;
+							font-size: 12px;
+						}
+						.image {
+							top: -43px;
+						}
+					}
+				}
+
+				.plataforma {
+					.carroussel {
+						.swiper-button-prev {
+							left: 41%;
+						}
+						.swiper-button-next {
+							right: 41%;
+						}
+					}
+				}
+
+				.calcule {
+					.box {
+						padding: 54px 34px;
+						.content-right {
+							.box-calc {
+								width: 390px;
+								margin-left: -10px;
+								top: -129px;
+								input {
+									width: 100%;
+								}
+							}
+							.box-input span {
+								margin-left: -150px;
+							}
+						}
+					}
+				}
+
+				.posts {
+					.thumb {
+						width: 230px;
+						.image {
+							height: 230px;
+							&::after {
+								height: 230px;
+							}
+						}
+					}
+						.box {
+							max-width: 190px;
+						.title {
+							font-size: 20px;
+							line-height: 24.4px;
+						}
+						.text {
+							p {
+								font-size: 14px;
+								line-height: 18.4px;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		@media screen and (max-width: 767px) {
+			.modal-content {
+				width: 100%;
+				.modal-body {
+					h1 {
+						text-align: center;
+					}
+				}
+			}
+			main.home {
+				.banner {
+					padding: 43px 0 32px 0;
+					.row {
+						flex-direction: column-reverse;
+						.col-6 {
+							max-width: 100%;
+						}
+
+						.content-left {
+							padding: 0 15px;
+						}
+						
+						h1 {
+							font-size: 30px;
+							line-height: 39px;
+							margin-bottom: 8px;
+						}
+						p {
+							font-size: 16px;
+							line-height: 22px;
+						}
+						.image {
+							width: 350px;
+							margin: 0 auto;
+						}
+						button {
+							width: 100%;
+							height: 51px;
+							font-size: 16px;
+							margin: 32px auto 8px auto;
+							display: block;
+						}
+						.text-blue {
+							font-size: 16px;
+							line-height: 28px;
+							text-align: center;
+						}
+					}
+				}
+				.organizar {
+					padding: 13px 0 0 0;
+					.box {
+						padding: 60px 0;
+						flex-direction: column;
+						.col-6 {
+							max-width: 100%;	
+						}
+						h1 {
+							font-size: 28px;
+							line-height: 40px;
+							margin-bottom: 8px;
+							padding: 0;
+						}
+						p {
+							font-size: 16px;
+							line-height: 22px;
+							padding: 0;
+							max-width: 100%;
+						}
+						.button {
+							width: 100%;
+							height: 51px;
+							font-size: 16px;
+							margin: 24px auto 0 auto;
+						}
+						.image {
+							position: relative;
+							top: 0;
+							left: 0;
+							margin: 68px 0 -62px 0;
+						}
+					}
+				}
+
+				.plataforma {
+					padding: 60px 0;
+					.title {
+						font-size: 28px;
+						line-height: 36.4px;
+						margin-bottom: 8px;
+						padding: 0 17px;
+					}
+					.content {
+						font-size: 16px;
+						line-height: 28.4px;
+					}
+					.carroussel {
+						margin: 32px 0 64px 0;
+						
+						.item {
+							max-width: 330px;
+							h2 {
+								max-width: 260px;
+								margin: 0 auto 16px auto;
+							}
+							.content {
+								line-height: 22.4px;
+							}
+						}
+						.swiper-button-prev {
+							left: 30%;
+							bottom: -86px;
+						}
+						.swiper-button-next {
+							right: 30%;
+							bottom: -86px;
+						}
+					}
+				}
+
+				.calcule {
+					padding: 0px 0 20px 0;
+					.box {
+						display: flex;
+						flex-direction: column;
+						height: auto;
+						padding: 46px 0;
+						border-radius: 0;
+						.content-left {
+							max-width: 100%;
+							h1 {
+								font-size: 28px;
+								line-height: 130%;
+								padding: 0;
+							}
+							p {
+								font-size: 16px;
+								line-height: 130%;
+								padding-bottom: 32px;
+							}
+						}
+						.content-right {
+							max-width: 100%;
+							.box-calc {
+								width: 100%;
+								position: relative;
+								margin: 0;
+								top: 0;
+								height: auto;
+								padding: 32px 26px;
+								h2 {
+									font-size: 22px;
+									line-height: 26.4px;
+								}
+								input {
+									width: 100%;
+								}
+							}
+							.box-input span {
+								left: 20px;
+								margin-left: 0;
+							}
+						}
+					}
+				}
+
+				.posts {
+					padding: 40px 0;
+					.row {
+						flex-direction: column;
+					}
+					.title-section {
+						font-size: 28px;
+						line-height: 36.4px;
+					}
+					.post {
+						max-width: 100%;
+						margin: 0 auto 30px auto;
+					}
+					.thumb {
+						width: 300px;
+						.image {
+							height: 300px;
+							&::after {
+								height: 300px;
+							}
+						}
+					}
+						.box {
+							max-width: 270px;
+						.title {
+							font-size: 22px;
+							line-height: 26.4px;
+						}
+						.text {
+							font-size: 16px;
+							line-height: 22.4px;
+						}
+					}
+				}
+			}
+
+			.footer {
+				padding-bottom: 36px;
+				.row {
+					flex-direction: column-reverse;
+					.col-6 {
+						max-width: 100%;
+						display: flex;
+						justify-content: center;
+						.texto {
+							margin-top: 32px;
+						}
+					}
+				}
+				
+			}
+		}
+
+		@media screen and (max-width: 575px) {
+			main.home {
+				.organizar {
+					.box {
+						border-radius: 0;
+					}
+				}
+
+				.calcule {
+					.box {
+						.content-right {
+							.box-input span {
+								left: 16px;
+							}
+						}
+					}
+				}
+
+			}
+		}
+	}
+}
